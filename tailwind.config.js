@@ -7,8 +7,11 @@ export default {
   theme: {
     extend: {},
     container: {
-      center: true,
+      center: true, 
     },
+    fontFamily:{
+      'Montserrat':["Montserrat", 'sans-serif'],
+    }
   },
   plugins: [],
-}
+};

@@ -2,7 +2,7 @@
 const LauoutOne = () => {
   return (
     <div>
-      dsiufaoiuhndsj
+      
     </div>
   )
 }

@@ -1,3 +1,99 @@
-.FullRegister{
-    @apply flex justify-between
-}
+/* ======== General Styles ======== */
+body {
+    @apply bg-black;
+  }
+  
+  .FullRegister {
+    @apply flex justify-center items-center h-screen;
+  }
+  
+  .MainRegister {
+    @apply flex justify-between w-[930px] h-[520px];
+  }
+  
+  /* ======== Blue Side ======== */
+  .BluSide {
+    @apply w-[400px] bg-[#0284C7] text-gray-200;
+    border-radius: 15px 0 0 15px;
+  }
+  
+  .Re_Login {
+    @apply text-[20px] leading-[22.5px] font-semibold font-Montserrat
+     pl-[28px] mt-[25px];
+  }
+  
+  .Re_Title {
+    @apply font-Montserrat text-[35px] font-semibold text-center leading-[37px] pt-[130px] mb-[18px];
+  }
+  
+  .Re_Ptag {
+    @apply text-center font-Montserrat text-[15px] font-normal leading-[20px] px-[25px];
+  }
+  
+  .BluLgButton {
+    @apply flex justify-center mt-[25px];
+  }
+  
+  .BluLgButton button {
+    @apply py-[7px] px-[45px] border-[1px] rounded-[30px] font-medium font-Montserrat text-[14px];
+  }
+  
+  /* ======== Form Side ======== */
+  .formSide {
+    @apply w-[580px] bg-white;
+    border-radius: 0 15px 15px 0;
+  }
+  
+  .Re_FormTitle {
+    @apply text-[#0284C7] text-[30px] font-semibold font-Montserrat leading-[37.5px] text-center mt-[40px];
+  }
+  
+  .Re_Icons {
+    @apply flex justify-center gap-4 mt-[20px];
+  }
+  
+  .icons {
+    @apply w-[40px] h-[40px] bg-[#E5E7EB] border-[1px] border-gray-500 rounded-full flex justify-center items-center text-[20px];
+  }
+  
+  .icons .faceBook {
+    @apply text-blue-600;
+  }
+  
+  .formSide p {
+    @apply font-Montserrat  font-medium text-[14px] leading-[22px] text-center text-[#111827] mt-[20px];
+  }
+  
+  /* ======== Input Fields ======== */
+  .Re_input {
+    @apply flex flex-col items-center;
+  }
+  
+  .MainInput {
+    @apply flex items-center border-[2px] px-[5px]  mt-4 w-[448px] py-[12px] rounded-[10px] bg-gray-300;
+  }
+  
+  .MainInput input {
+    @apply w-full outline-none bg-transparent;
+  }
+  
+  .MainInput:focus-within {
+    @apply border-blue-500;
+  }
+  
+ 
+  .iconsI {
+    @apply mx-4 text-[#0284C7];
+  }
+  .eyeIcon{
+    @apply  text-[20px] mr-1
+  }
+  .SubmitBtn {
+    @apply flex justify-center mt-[30px]
+  }
+  .SubmitBtn button{
+    @apply py-3 px-[57px] border-[2px] rounded-[50px] bg-[#0284C7] text-[18px]
+     text-white font-Montserrat font-medium 
+  }
+
+  
