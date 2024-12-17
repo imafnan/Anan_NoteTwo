@@ -1,6 +1,9 @@
 /* ======== General Styles ======== */
 body {
-    @apply bg-black;
+    background:url(/public/img/bodybg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
   }
   
   .FullRegister {
@@ -23,7 +26,7 @@ body {
   }
   
   .Re_Title {
-    @apply font-Montserrat text-[35px] font-semibold text-center leading-[37px] pt-[130px] mb-[18px];
+    @apply font-Montserrat text-[35px] font-semibold text-center leading-[37px] pt-[150px] mb-[18px];
   }
   
   .Re_Ptag {

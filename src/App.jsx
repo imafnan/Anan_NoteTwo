@@ -2,11 +2,15 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import './App.css'
 import Register from './Components/Register/Register'
 import app from './Firebase'
+import Login from './Components/Login/Login'
+
+
 
 function App() {
   const myRoute =createBrowserRouter(createRoutesFromElements(
     <Route>
       <Route path='/' element={<Register/>}/>
+      <Route path='/login' element={<Login/>}/>
     </Route>
   ))
   

@@ -10,23 +10,25 @@ import { IoEyeOutline } from "react-icons/io5";
 import { useState } from "react";
 
 
+
 const Register = () => {
 
-    // 
-      const [UserName , setUserName]              =useState('')
-      const [userNameError , setuserNAmeError]    =useState('')
+    
+      // const [UserName , setUserName]              =useState('')
+      // const [userNameError , setuserNAmeError]    =useState('')
 
 
-      const [Email , setEmail]                    =useState('')
-      const [emailError , setemailError]          =useState('')
+      // const [Email , setEmail]                    =useState('')
+      // const [emailError , setemailError]          =useState('')
       
     
       const [showPassword , hidePasssword]        = useState(false)
 
-      const [PassWord , setPassWord]              =useState('')
-      const [passwordError , setpasswordErrorr]   =useState('')
+      // const [PassWord , setPassWord]              =useState('')
+      // const [passwordError , setpasswordErrorr]   =useState('')
   
-
+    // =================== N
+         
     
 
     //--------------------- Funtions Part Start --------------------- 
@@ -44,7 +46,7 @@ const Register = () => {
               To keep connected with us please login with your personal info
             </p>
             <div className="BluLgButton">
-              <button>Login</button>
+              <button><a href="#">Login</a> </button>
             </div>
           </div>
 
@@ -105,4 +107,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Register
